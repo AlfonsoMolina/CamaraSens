@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.dam.camarasens.MainActivity">
+    <item android:id="@+id/vaciar" android:title="Vaciar BBDD"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/camara" android:title="Hacer foto"
+        android:icon="@drawable/camara"
+        android:orderInCategory="100" app:showAsAction="ifRoom" />
+    <item android:id="@+id/mostrar_lista" android:title="Mostrar lista"
+        android:icon="@drawable/lupa"
+
+        android:orderInCategory="100" app:showAsAction="ifRoom" />
+</menu>
